@@ -1,0 +1,1188 @@
+@font-face {
+    font-family: 'AmstelvarAlpha' ;
+    src: url(./AmstelvarAlpha/-VF.ttf);
+}
+
+@font-face {
+    font-family: 'Open SansR';
+    src: url(./fonts/OpenSans_Condensed-Regular.ttf);
+}
+
+
+@font-face {
+
+    font-family: 'Open SansSemibold';
+    src: url(./fonts/OpenSans_Condensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoR';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoL';
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoM';
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topMain{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(30, 40, 50, 0.05);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.header{
+    width: 80%;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    justify-content: center;
+    
+}
+
+.topHeader{
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 4px;
+    left: 0;
+
+}
+
+.logoDiv {
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;  gap: 10px;
+    flex: 1;
+}
+
+h1{
+    font-family: 'AmstelvarAlpha';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.logoImg{
+    width: 31px;
+    height: 15px;
+    border: 0.5px;
+}
+
+.AccountDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    position: absolute;
+    right: 2px;
+    margin-top: 4px;   
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+   
+}
+  
+.btn img {
+    width: 25px; 
+    height: 25px; 
+}
+  
+.btn span {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btn:hover{
+    color: #FF6F61;
+}
+
+
+.headerLine{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border: 1px solid #E3E3E3;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuLink{ 
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.menuLink:hover{
+    color: #FF6F61;
+}
+
+.product{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 225px;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.framesDiv{
+    width: 100%;
+    margin-top: 350px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frame1{
+    width: 132.34px;
+    height: 66.61px;
+    margin-top: 248px;
+    left: 86.16px;
+    bottom: 0;
+}
+
+.frame{
+    width: 195px;
+    height: 262px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 0.06px 0.02px 0.03px 0.23px;
+}
+
+
+
+
+.mainImg{
+    position: absolute;
+    width: 354px;
+    height: 450px;
+    left: 62%;
+    padding-bottom: 20px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    flex: 1;
+}
+
+.contentHeader{
+    font-family: 'RobotoL';
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contentBody{
+    font-family: 'RobotoR';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 682px;
+    height: 119px;
+
+    
+
+}
+
+.mainbtn{
+    width: 223px;
+    height: 72px;
+    padding: 19px, 26px, 19px, 26px;
+    gap: 8px;
+    background-color: rgba(30, 40, 50, 1);
+    color: white;
+    font-family: 'RobotoR';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    border: none;
+    z-index: 1;
+
+}
+
+.mainbtn:hover{
+    background-color: #FF6F61;
+}
+
+
+/* brand */
+.brand{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+/* big */
+
+.bigDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 90px auto 0;
+    height: 648px;
+    
+}
+
+
+.big{
+    width: 45%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.bigImage{
+    width: 100%;
+    height: 648px;
+}
+
+.hoverContent {
+    display: none;
+} 
+
+ .big:hover .hoverContent {
+    display: block;
+} 
+
+
+
+.card:hover .hoverContent {
+    display: block;
+} 
+
+.hoverSpan{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hoverSpanRight{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.big{
+    width: 45%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.bigImage{
+    width: 100%;
+    height: 648px;
+}
+
+.hoverContent {
+    display: none;
+} 
+
+ .big:hover .hoverContent {
+    display: block;
+} 
+
+.hoverDiv { 
+    width: 100%;
+    height: 52px;
+    padding: 15px 14px; 
+    border: 1px solid rgba(30, 40, 50, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    background-color: rgba(30, 40, 50, 1);
+    align-items: center;
+    opacity: 1;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px; 
+}
+
+
+
+
+
+/* small */
+.small{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    gap: 24px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    gap: 24px;
+}
+
+
+
+.smallPhoto{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.productHoverContent{
+    display: flex;
+    flex-direction: row;
+}
+.smallPhoto:hover .hoverContent {
+    display: block;
+} 
+
+.HotCatText{
+    font-family: 'RobotoR';
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: -290px;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+
+
+.productPhoto{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 23%;
+    height: 400px;
+
+}
+.productPhoto:hover .productHoverContent {
+    display: block;
+} 
+
+.productImages{
+    width:  100%;
+    height: 320px;
+
+}
+
+
+
+
+
+
+.gridProducts{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.sectionTitle{
+    font-family: 'RobotoM';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.topSecProducts{
+    height: 32px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category{
+    width: 373px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AllProducts{
+    width: 93px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.productLinks{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.productLinks:hover{
+    color: #FF6F61;
+}
+
+
+.filterButton{
+    width: 92px;
+    height: 32px;
+    padding: 5px, 15px, 5px, 156px;
+    gap: 4px;
+    background-color: rgba(30, 40, 50, 1);
+    color: white;
+    font-family: 'Open SansR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    border: none;
+    position: absolute;
+    right: 0;
+
+}
+.filterButton:hover{
+    background-color: #FF6F61;
+}
+
+.onebigDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;    flex-wrap: wrap;
+}
+
+.wholeCard{
+    width: 22.5%;
+    height: 478px;
+    gap: 18px;
+}
+
+.topProductcard{
+    width:100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.cardImages{
+    width:  100%;
+    height: 320px;
+}
+
+.crdImage{
+    width: 100%;
+    height: 100%;
+}
+
+
+.accessProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 14px; 
+    justify-content: space-between;
+    background-color: rgba(30, 40, 50, 1);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+
+.wholeCard:hover .accessProduct{
+    opacity: 1;
+}
+
+.wholeCard:hover .accessProduct{
+    opacity: 1;
+}
+
+
+.leftIcons{
+    width: 71px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.leftIcons>img{
+    width: 25px;
+    height: 25px;
+}
+
+.buttDiv{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.cardButton{
+    color: white;
+    font-family: 'RobotoR';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+
+
+
+.bottomProductCard{
+    width: auto;
+    height: 60px;
+    padding: 0 10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardTitle{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+}
+
+.ribbonDiv{
+    width: 52px;
+    height: 24px;
+    top: 22px;
+    background-color: #FF6F61;
+    position: absolute;
+    opacity: 0;
+}
+.ribbonDivActive{
+    width: 52px;
+    height: 24px;
+    top: 22px;
+    background-color: #FF6F61;
+    position: absolute;
+    opacity: 1;
+}
+
+.ribbonDivSale{
+    width: 52px;
+    height: 24px;
+    top: 22px;
+    background-color:rgba(30, 40, 50, 1);
+    position: absolute;
+    opacity: 1;
+}
+
+.ribbonText{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 4px 12px;
+    color: white;
+
+}
+
+.itemAndPrice{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carditem{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.cardPrice{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.cardPriceRed{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #FF6F61;
+
+}
+
+.pricediv{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: end;
+}
+
+.sliderArrow{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 339px;
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+/* brandBanner */
+.brandBanner{    
+
+    overflow: hidden;
+    margin-top: 140px;
+    width: 100%;    
+    height: 776px;
+    position: relative;
+    background-color:#000;
+}
+
+.zaraBigImage{
+    width: 632px;
+    height: 259px;
+    right: -20px;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+
+.brandTitle{
+    margin-top: 233px;
+    position: absolute;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    z-index: 1;
+
+}
+
+
+
+
+.zaraSmallImage{
+    width: 191px;
+    height: 81px;
+
+
+}
+
+.brandSpan{
+    font-family: 'RobotoR';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 504px;
+    height: 187px;
+    text-transform: capitalize;
+}
+
+
+.brandButton{
+    width: 237px;
+    height: 72px;
+    padding: 19px 26px 19px 26px;
+    gap: 8px;
+    font-family: 'RobotoR';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.brandButton:hover{
+    background-color: #FF6F61;
+
+}
+
+.bannerImage{
+    position: absolute;
+    right: 16%;
+}
+
+.newsletterAndInstagram{
+    margin-top: 140px;
+    height: 754px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    background-color: rgba(30, 40, 50, 0.05);
+}
+
+.instaAndNewsletteer{
+    width: 80%;
+    margin: auto;
+}
+
+
+.instagram{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.instaSectionTitle{
+    font-family: 'RobotoM';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+}
+
+.instaSectionTitleNews{
+    font-family: 'RobotoM';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+    text-transform: capitalize;
+    margin-bottom: 74px;
+}
+
+.instaCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-for-email {
+    font-family: 'RobotoS';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.email {
+    width: 643px;
+    height: 32px;
+    margin-right: 10px;
+    margin-left: 1px;
+    padding: 13px 15px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    position: relative;
+    border-bottom: 2px solid rgba(30, 40, 50, 1);
+    }
+
+    .email::placeholder{
+       color: rgba(30, 40, 50, 0.5);
+    }
+
+    
+    
+
+    
+.submit {
+    width: 91px;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    color: rgba(30, 40, 50, 1);
+    border-bottom: 2px solid rgba(30, 40, 50, 1);
+}
+
+.submit:hover{
+    color: #FF6F61;
+    border-bottom: 2px solid #FF6F61;
+
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.topFooter{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+    height: 213px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    width: 392px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 0;
+
+}
+
+.footerLogoDiv {
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  gap: 10px;
+}
+
+.span3{
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(30, 40, 50, 0.75);
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.social>img{
+    width: 25px;
+    height: 25px;
+}
+
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.CATALOG{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.itemMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.itemMenu > a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(30, 40, 50, 1);
+}
+
+.itemMenu :hover{
+    color: #FF6F61;
+}
+
+.bottomFooter{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 375px;
+    background-color: rgba(30, 40, 50, 1);
+}
+
+.btmcontent{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+abbr{
+    color: white;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.scroll{
+    height: 32px;
+    padding: 5px 15px 5px 15px;
+    gap: 14px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+.instaCards {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 190px;
+    height: 200px;
+    background-color: rgb(4, 37, 65);
+}
+
+.instaimages{
+    width: 190px;
+    height: 200px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 24px;
+}
